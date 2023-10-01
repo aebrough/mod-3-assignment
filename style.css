@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	background-color: white;
+}
+
+#header-nav {
+	background-color: #808080;
+	border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+	margin-left:15px;
+}
+
+.navbar-toggler {
+	border:2px solid black;
+	margin-right:15px;
+}
+
+.toggler:hover {
+	background:#c0c0c0;
+}
+
+.link:hover {
+	background:#c0c0c0;
+}
+
+.nav-item {
+	font-size: 1.2em;
+	text-align: center;
+	border-top: 2px solid black;
+}
+
+#chicken-tile {
+	height:700px;
+	position:relative;
+	overflow: hidden;
+	padding:0;
+	margin-top:60px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	background-color:#808080;
+	overflow: scroll;
+}
+
+h2 {
+	color:black;
+	margin-top:50px;
+	text-align:center;
+}
+
+h3 {
+	color:black;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:auto;
+	padding:5px;
+	font-size:1.5em;
+}
+
+p {
+	color:black;
+	padding:5px;
+}
